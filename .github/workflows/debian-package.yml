@@ -19,7 +19,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Debian package action test
-      uses: schacht-certat/action-build-on-debian@v1
+      uses: schacht-certat/action-build-on-debian@add-lintian
       with:
         codename: ${{ matrix.codename }}
 
